@@ -1,0 +1,63 @@
+@media only screen and (max-width: 768px) {
+  .navbar-nav {
+    text-align: center;
+  }
+
+  #carouselCaption {
+    h1 {
+      font-size: 4rem;
+    }
+  }
+
+  .welcome-content {
+    margin-bottom: 50px;
+  }
+
+  #reviewSection blockquote h3 {
+    font-size: 1.3rem;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  #carouselCaption {
+    top: 33%;
+
+    h1 {
+      font-size: 3rem;
+    }
+  }
+
+  #welcome-section {
+    padding: 80px 40px;
+  }
+
+  .welcome-content {
+    text-align: center;
+
+    h1 {
+      font-size: 3.8rem;
+    }
+  }
+
+  .container {
+    padding: 20px 40px;
+
+    h1 {
+      font-size: 3rem;
+    }
+  }
+
+  .info-items {
+    text-align: center;
+  }
+
+  #reviewSection .wrapper .carousel-item {
+    padding: 60px 30px;
+  }
+}
+
+@media only screen and (max-height: 350px) {
+  #carouselCaption {
+    top: 35%;
+  }
+}

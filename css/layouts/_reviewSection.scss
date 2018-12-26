@@ -1,0 +1,56 @@
+#reviewSection {
+
+    .wrapper {
+        height: 100%;
+        background: $primary-color;
+
+        .container .carousel .carousel-inner .carousel-item,
+        .carousel-item-align {
+            height: 100%;
+        }
+
+        .carousel-item {
+            padding: 60px 120px;
+
+            .stars {
+                margin-bottom: 50px;
+                color: $secondary-color;
+                font-size: 1.5rem;
+            }
+
+            blockquote {
+                color: $color-light;
+
+                h3 {
+                    font-family: 'Playfair Display', serif;
+                    font-style: italic;
+                    margin-bottom: 50px;
+
+                    &::before {
+                        content: '\f10d';
+                        font-family: "Font Awesome 5 Free";
+                        font-weight: 600;
+                        color: $secondary-color;
+                        margin-right: 10px;
+                    }
+
+                    &::after {
+                        content: '\f10e';
+                        font-family: "Font Awesome 5 Free";
+                        font-weight: 600;
+                        color: $secondary-color;
+                        margin-left: 10px;
+                    }
+                }
+
+
+                small {
+                    text-transform: uppercase;
+                    font-size: 1.2rem;
+                    letter-spacing: 4px;
+                }
+            }
+        }
+
+    }
+}

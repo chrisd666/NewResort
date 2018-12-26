@@ -1,0 +1,73 @@
+header {
+  height: 100vh;
+
+  nav {
+    background-color: $primary-color;
+    box-shadow: 5px 5px 10px #000;
+    box-shadow: -5px 5px 10px #000;
+
+    .navbar-brand {
+      color: #fff;
+      font-family: $other-font;
+      font-size: 1.5rem;
+    }
+
+    .lnr {
+      color: $color-light;
+    }
+
+    .navbar-nav .nav-link {
+      color: $color-light;
+      letter-spacing: 2px;
+      font-size: 1.1rem;
+
+      &:hover {
+        color: $secondary-color;
+      }
+    }
+
+    .active .nav-link {
+      color: $secondary-color;
+      position: relative;
+
+      &::after {
+        content: "";
+        position: absolute;
+        width: 80%;
+        margin: auto;
+        height: 2px;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: $secondary-color;
+      }
+    }
+  }
+
+  main .carousel-item {
+    position: relative;
+  }
+
+  main,
+  .carousel,
+  .carousel-inner,
+  .carousel-item {
+    height: 100%;
+
+    img {
+      object-fit: cover;
+    }
+
+    .carousel-caption {
+      position: absolute;
+      top: 40%;
+
+      p {
+        text-transform: uppercase;
+        font-size: 1rem;
+        letter-spacing: 3px;
+        word-spacing: 5px;
+      }
+    }
+  }
+}

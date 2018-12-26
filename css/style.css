@@ -1,0 +1,472 @@
+@import url("https://fonts.googleapis.com/css?family=Lobster|Open+Sans|Playfair+Display");
+@import url("https://fonts.googleapis.com/css?family=Charm:700");
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+html,
+body {
+  font-size: 16px;
+  min-height: 100%;
+}
+
+body {
+  font-family: "Open sans", sans-serif;
+  font-size: 1rem;
+  color: #222222;
+}
+
+h1 {
+  font-family: "Lobster", cursive;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+.brand {
+  color: #fff;
+  font-family: "Charm", cursive;
+  font-size: 1.5rem;
+}
+
+header {
+  height: 100vh;
+}
+
+header nav {
+  background-color: #102542;
+  -webkit-box-shadow: 5px 5px 10px #000;
+          box-shadow: 5px 5px 10px #000;
+  -webkit-box-shadow: -5px 5px 10px #000;
+          box-shadow: -5px 5px 10px #000;
+}
+
+header nav .navbar-brand {
+  color: #fff;
+  font-family: "Charm", cursive;
+  font-size: 1.5rem;
+}
+
+header nav .lnr {
+  color: #fff;
+}
+
+header nav .navbar-nav .nav-link {
+  color: #fff;
+  letter-spacing: 2px;
+  font-size: 1.1rem;
+}
+
+header nav .navbar-nav .nav-link:hover {
+  color: #eca400;
+}
+
+header nav .active .nav-link {
+  color: #eca400;
+  position: relative;
+}
+
+header nav .active .nav-link::after {
+  content: "";
+  position: absolute;
+  width: 80%;
+  margin: auto;
+  height: 2px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #eca400;
+}
+
+header main .carousel-item {
+  position: relative;
+}
+
+header main,
+header .carousel,
+header .carousel-inner,
+header .carousel-item {
+  height: 100%;
+}
+
+header main img,
+header .carousel img,
+header .carousel-inner img,
+header .carousel-item img {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+header main .carousel-caption,
+header .carousel .carousel-caption,
+header .carousel-inner .carousel-caption,
+header .carousel-item .carousel-caption {
+  position: absolute;
+  top: 40%;
+}
+
+header main .carousel-caption p,
+header .carousel .carousel-caption p,
+header .carousel-inner .carousel-caption p,
+header .carousel-item .carousel-caption p {
+  text-transform: uppercase;
+  font-size: 1rem;
+  letter-spacing: 3px;
+  word-spacing: 5px;
+}
+
+#welcome-section {
+  padding: 80px 60px;
+}
+
+#welcome-section .container {
+  height: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#welcome-section .column {
+  height: 100%;
+}
+
+#welcome-section .column .welcome-content,
+#welcome-section .column img {
+  width: 100%;
+  height: auto;
+}
+
+#welcome-section .column img {
+  -webkit-box-shadow: 4px 4px 10px #000;
+          box-shadow: 4px 4px 10px #000;
+}
+
+#welcome-section .column .welcome-content .welcome-txt {
+  color: #102542;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  letter-spacing: 2px;
+}
+
+#welcome-section .column .welcome-content .subhead {
+  font-size: 1.4rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+#welcome-section .column .welcome-content p {
+  font-size: 1.1rem;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+}
+
+#info {
+  min-height: 100vh;
+  background: url("../images/main/info.jpg") no-repeat fixed center;
+  background-size: cover;
+}
+
+#info .info-container {
+  min-height: 100vh;
+}
+
+#info .info-container .overlay {
+  min-height: 100vh;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+#info .info-container .overlay .container {
+  height: 100%;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+#info .info-container .overlay .container .col-sm-4 {
+  padding: 20px;
+}
+
+#info .info-container .overlay .container .col-sm-4 .info-items .item-icon {
+  font-size: 30px;
+  color: #eca400;
+}
+
+#info .info-container .overlay .container .col-sm-4 .info-items .item-text h4 {
+  letter-spacing: 1px;
+  font-size: 1.5rem;
+}
+
+#info .info-container .overlay h1 {
+  color: #fff;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+#info .info-container .overlay .info-items {
+  color: #fff;
+}
+
+#reviewSection .wrapper {
+  height: 100%;
+  background: #102542;
+}
+
+#reviewSection .wrapper .container .carousel .carousel-inner .carousel-item,
+#reviewSection .wrapper .carousel-item-align {
+  height: 100%;
+}
+
+#reviewSection .wrapper .carousel-item {
+  padding: 60px 120px;
+}
+
+#reviewSection .wrapper .carousel-item .stars {
+  margin-bottom: 50px;
+  color: #eca400;
+  font-size: 1.5rem;
+}
+
+#reviewSection .wrapper .carousel-item blockquote {
+  color: #fff;
+}
+
+#reviewSection .wrapper .carousel-item blockquote h3 {
+  font-family: 'Playfair Display', serif;
+  font-style: italic;
+  margin-bottom: 50px;
+}
+
+#reviewSection .wrapper .carousel-item blockquote h3::before {
+  content: '\f10d';
+  font-family: "Font Awesome 5 Free";
+  font-weight: 600;
+  color: #eca400;
+  margin-right: 10px;
+}
+
+#reviewSection .wrapper .carousel-item blockquote h3::after {
+  content: '\f10e';
+  font-family: "Font Awesome 5 Free";
+  font-weight: 600;
+  color: #eca400;
+  margin-left: 10px;
+}
+
+#reviewSection .wrapper .carousel-item blockquote small {
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  letter-spacing: 4px;
+}
+
+footer {
+  background: #222222;
+  color: #fff;
+  padding: 40px 0;
+}
+
+footer .brand {
+  font-size: 3rem;
+}
+
+footer .fa-facebook-square {
+  font-size: 2.2rem;
+  color: #fff;
+}
+
+footer .fa-facebook-square:hover {
+  color: #eca400;
+}
+
+@media only screen and (max-width: 768px) {
+  .navbar-nav {
+    text-align: center;
+  }
+  #carouselCaption h1 {
+    font-size: 4rem;
+  }
+  .welcome-content {
+    margin-bottom: 50px;
+  }
+  #reviewSection blockquote h3 {
+    font-size: 1.3rem;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  #carouselCaption {
+    top: 33%;
+  }
+  #carouselCaption h1 {
+    font-size: 3rem;
+  }
+  #welcome-section {
+    padding: 80px 40px;
+  }
+  .welcome-content {
+    text-align: center;
+  }
+  .welcome-content h1 {
+    font-size: 3.8rem;
+  }
+  .container {
+    padding: 20px 40px;
+  }
+  .container h1 {
+    font-size: 3rem;
+  }
+  .info-items {
+    text-align: center;
+  }
+  #reviewSection .wrapper .carousel-item {
+    padding: 60px 30px;
+  }
+}
+
+@media only screen and (max-height: 350px) {
+  #carouselCaption {
+    top: 35%;
+  }
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,38 @@
+// CUSTOM
+
+html,
+body {
+  font-size: 16px;
+  min-height: 100%;
+}
+
+body {
+  font: {
+    family: "Open sans", sans-serif;
+    size: 1rem;
+  }
+
+  color: $color-dark;
+}
+
+h1 {
+  font-family: $primary-font;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+.brand {
+  color: #fff;
+  font-family: $other-font;
+  font-size: 1.5rem;
+}
