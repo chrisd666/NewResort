@@ -3,6 +3,12 @@ $secondary-color: #eca400;
 $color-dark: #222222;
 $color-light: #fff;
 
+@font-face {
+  font-family: Palace Script;
+  src: url(../fonts/PALSCRI.TTF);
+}
+
 $primary-font: "Lobster", cursive;
 $secondary-font: "Open Sans", sans-serif;
 $other-font: "Charm", cursive;
+$brand-font: Palace Script;

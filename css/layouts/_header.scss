@@ -8,8 +8,14 @@ header {
 
     .navbar-brand {
       color: #fff;
-      font-family: $other-font;
-      font-size: 1.5rem;
+      font-family: $brand-font;
+      font-size: 4rem;
+
+      img {
+        width: 38px;
+        height: 38px;
+        margin-right: 5px;
+      }
     }
 
     .lnr {

@@ -1,5 +1,10 @@
 @import url("https://fonts.googleapis.com/css?family=Lobster|Open+Sans|Playfair+Display");
 @import url("https://fonts.googleapis.com/css?family=Charm:700");
+@font-face {
+  font-family: Palace Script;
+  src: url(../fonts/PALSCRI.TTF);
+}
+
 html,
 body,
 div,
@@ -180,8 +185,14 @@ header nav {
 
 header nav .navbar-brand {
   color: #fff;
-  font-family: "Charm", cursive;
-  font-size: 1.5rem;
+  font-family: Palace Script;
+  font-size: 4rem;
+}
+
+header nav .navbar-brand img {
+  width: 38px;
+  height: 38px;
+  margin-right: 5px;
 }
 
 header nav .lnr {
@@ -407,7 +418,13 @@ footer {
 }
 
 footer .brand {
-  font-size: 3rem;
+  font-family: Palace Script;
+  font-size: 4rem;
+}
+
+footer .brand img {
+  width: 38px;
+  height: 38px;
 }
 
 footer .fa-facebook-square {
