@@ -314,18 +314,7 @@ header .carousel-item .carousel-caption p {
   margin-bottom: 10px;
 }
 
-#info {
-  min-height: 100vh;
-  background: url("../images/main/info.jpg") no-repeat fixed center;
-  background-size: cover;
-}
-
-#info .info-container {
-  min-height: 100vh;
-}
-
 #info .info-container .overlay {
-  min-height: 100vh;
   background-color: rgba(0, 0, 0, 0.8);
 }
 
