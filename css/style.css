@@ -425,6 +425,18 @@ footer .fa-facebook-square:hover {
   color: #eca400;
 }
 
+.small-leading {
+  color: #102542;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  letter-spacing: 2px;
+}
+
+.small-info {
+  font-size: 1.1rem;
+  letter-spacing: 1px;
+}
+
 @media only screen and (max-width: 768px) {
   .navbar-nav {
     text-align: center;

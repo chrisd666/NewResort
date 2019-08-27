@@ -1,0 +1,22 @@
+{
+  "name": "chrisander_website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chrisd666/NewResort.git"
+  },
+  "author": "Christopher Dias",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chrisd666/NewResort/issues"
+  },
+  "homepage": "https://github.com/chrisd666/NewResort#readme",
+  "dependencies": {
+    "bootstrap": "^4.3.1"
+  }
+}

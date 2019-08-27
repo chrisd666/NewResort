@@ -51,9 +51,17 @@
       integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
       crossorigin="anonymous"
     />
+    <link
+      rel="stylesheet"
+      href="./nanogallery2-2.3.0/dist/css/nanogallery2.min.css"
+    />
     <link rel="stylesheet" href="css/style.css" />
 
     <title>Chrisander Resort</title>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <script src="./nanogallery2-2.3.0/dist/jquery.nanogallery2.min.js"></script>
   </head>
 
   <body>
@@ -358,6 +366,45 @@
             GALLERY
 
         -->
+
+    <section id="chrisanderWines py-4">
+      <div class="container py-4">
+        <p class="small-leading text-center">Chrisander's also introduces</p>
+        <h1 class="text-center">Chrisander Wines</h1>
+        <div
+          id="nanogallery2"
+          data-nanogallery2='{
+          "thumbnailHeight":  "auto",
+          "thumbnailWidth":   "150",
+          "itemsBaseURL":     "/images/wines/"
+        }'
+        >
+          <a href="cw1.jpg" data-ngthumb="cw1.jpg"></a>
+          <a href="cw2.jpg" data-ngthumb="cw2.jpg"></a>
+          <a href="cw3.jpg" data-ngthumb="cw3.jpg"></a>
+          <a href="cw4.jpg" data-ngthumb="cw4.jpg"></a>
+          <a href="cw5.jpg" data-ngthumb="cw5.jpg"></a>
+          <a href="cw6.jpg" data-ngthumb="cw6.jpg"></a>
+          <a href="cw7.jpg" data-ngthumb="cw7.jpg"></a>
+          <a href="cw8.jpg" data-ngthumb="cw8.jpg"></a>
+          <a href="cw9.jpg" data-ngthumb="cw9.jpg"></a>
+          <a href="cw10.jpg" data-ngthumb="cw10.jpg"></a>
+          <a href="cw11.jpg" data-ngthumb="cw11.jpg"></a>
+          <a href="cw12.jpg" data-ngthumb="cw12.jpg"></a>
+          <a href="cw13.jpg" data-ngthumb="cw13.jpg"></a>
+          <a href="cw14.jpg" data-ngthumb="cw14.jpg"></a>
+          <a href="cw15.jpg" data-ngthumb="cw15.jpg"></a>
+        </div>
+        <p class="small-info text-center my-3">
+          We provied a huge variety of local and foreign beverages.
+        </p>
+        <p class="small-info text-center">
+          Shop No. 4, Ground Floor, Zeferino Commercial Complex,<br />
+          Cusman, Quepem, Goa - 403 705
+        </p>
+      </div>
+    </section>
+
     <footer>
       <div class="container text-center">
         <div class="brand"><img src="./images/logo.png" />Chrisander's</div>
@@ -375,11 +422,6 @@
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script
-      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-      crossorigin="anonymous"
-    ></script>
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
       integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
