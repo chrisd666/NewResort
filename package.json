@@ -17,6 +17,11 @@
   },
   "homepage": "https://github.com/chrisd666/NewResort#readme",
   "dependencies": {
-    "bootstrap": "^4.3.1"
+    "bootstrap": "^4.3.1",
+    "linearicons": "^1.0.1",
+    "nanogallery2": "^2.4.2"
+  },
+  "devDependencies": {
+    "@fortawesome/fontawesome-free": "^5.10.2"
   }
 }
